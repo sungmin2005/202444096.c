@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
     int x;
@@ -7,7 +7,6 @@ int main(void)
     x = 100;
     y = 200;
     sum = x + y;
-    printf("두수의 합 : %d",sum);
+    printf("두수의 합 : % d",sum);
     return 0;
-
 }
